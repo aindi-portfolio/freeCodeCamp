@@ -1,0 +1,17 @@
+ul > li > span {
+    font-weight: bold;
+  }
+  div img {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    justify-content: center;
+    background-color: white;
+  }
+  main {
+    background-color: #f1f1f1;
+  }
+  main > h1, main > h2 {
+    display: block;
+    text-align: center;
+  }

@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  #header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #E8E8E8;
+  }
+  
+  .logo {
+    width: 60vw;
+  }
+  
+  .navbar {
+    width: 35vw;
+  }
+  
+  #nav-bar {
+    font-weight: bold;
+  }
+  
+  .logo > img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    display: flex;
+  }
+  
+  ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35vw;
+  }
+  
+  ul > li {
+    list-style: none;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  main {
+    padding: 60 0;
+    background-color: #E8E8E8;
+    width: 100%;
+  }
+  
+  .form {
+    text-align: center;
+  }
+  
+  #submit {
+    background-color: orange;
+    border: 0;
+    height: 20px;
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  #Features {
+    display: block;
+    margin-top: 20px;
+    padding: 0 60px;
+  }
+  
+  #Features > div {
+    margin-bottom: 20px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  #How_It_Works {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #Pricing {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #Pricing > div {
+    border: 1px solid black;
+    text-align: center;
+    width: 200px;
+    height: 175px;
+  }
+  
+  .button-select {
+    background-color: orange;
+    border: 0;
+    height: 35px;
+    width: 75px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  }
